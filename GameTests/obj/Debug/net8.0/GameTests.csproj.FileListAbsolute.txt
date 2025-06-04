@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\SnakeRemake\GameTests\obj\Debug\net8.0\GameTests.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\SnakeRemake\GameTests\obj\Debug\net8.0\GameTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\SnakeRemake\GameTests\obj\Debug\net8.0\GameTests.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SnakeRemake\GameTests\obj\Debug\net8.0\GameTests.AssemblyInfo.cs
+C:\Users\user\Desktop\SnakeRemake\GameTests\obj\Debug\net8.0\GameTests.csproj.CoreCompileInputs.cache

@@ -1,0 +1,35 @@
+@startuml classes
+class MainWindow {
+    - List<Point> _snakePositions
+    - List<Rectangle> _snakeParts
+    - DispatcherTimer _gameTimer
+    - Vector _direction
+    - int _score
+    + InitializeSnake()
+    + MoveSnake()
+    + EndGame()
+    + StartGameLoop()
+}
+
+class GameCanvas {
+    - Width: int
+    - Height: int
+    + Children: UIElementCollection
+}
+
+class Rectangle {
+    - Width: double
+    - Height: double
+    - Fill: Brush
+}
+
+class DispatcherTimer {
+    - Interval: TimeSpan
+    + Start()
+    + Stop()
+}
+
+MainWindow "1" *-- "1" GameCanvas : содержит
+MainWindow "1" *-- "1" DispatcherTimer : использует
+MainWindow "1" *-- "*" Rectangle : управляет
+@enduml

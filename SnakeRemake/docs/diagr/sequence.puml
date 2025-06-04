@@ -1,0 +1,23 @@
+@startuml sequence
+actor Игрок
+participant MainWindow
+participant "Игровой цикл" as Timer
+participant "Змейка" as Snake
+participant "Боты" as Bots
+participant "Еда" as Food
+
+Игрок -> MainWindow: Нажатие стрелок на клавиатуре
+MainWindow -> Snake: Обновить направление
+Timer -> MainWindow: Тик таймера (200 мс)
+MainWindow -> Snake: Переместить
+MainWindow -> Bots: Переместить всех ботов
+Snake -> Food: Проверить сбор еды
+alt Еда собрана
+    Food -> MainWindow: Увеличить счёт
+    MainWindow -> Food: Сгенерировать новую еду
+end
+MainWindow -> MainWindow: Проверить столкновения
+alt Столкновение случилось
+    MainWindow -> MainWindow: Завершить игру
+end
+@enduml

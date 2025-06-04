@@ -1,0 +1,25 @@
+@startuml usecase
+left to right direction
+actor Игрок as Player
+
+rectangle "SnakeRemake" {
+    usecase "Запустить игру" as UC1
+    usecase "Управлять змейкой" as UC2
+    usecase "Собирать еду" as UC3
+    usecase "Столкнуться с врагом" as UC4
+    usecase "Рестарт игры" as UC5
+    usecase "Выйти из игры" as UC6
+
+    UC1 --> UC2
+    UC2 --> UC3
+    UC3 --> UC4
+    UC4 --> UC5
+    UC5 --> UC2
+    UC1 --> UC6
+}
+
+Player --> UC1
+Player --> UC2
+Player --> UC5
+Player --> UC6
+@enduml
