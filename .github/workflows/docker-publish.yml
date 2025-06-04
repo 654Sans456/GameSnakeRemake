@@ -1,0 +1,36 @@
+name: Publish Docker Container
+
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - '**.cs'
+      - '**.xaml'
+      - 'Dockerfile'
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Login to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: |
+            ghcr.io/654sans456/gamesnakere:latest
+            ghcr.io/654sans456/gamesnakere:${{ github.sha }}
