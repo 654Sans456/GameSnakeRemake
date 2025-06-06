@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\SnakeRemake\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C82A7152-6D3B-4C07-8446-BECE8385AB0C}|SnakeRemake\\SnakeRemake.csproj|c:\\users\\user\\desktop\\snakeremake\\snakeremake\\docs\\technicaltask.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{C82A7152-6D3B-4C07-8446-BECE8385AB0C}|SnakeRemake\\SnakeRemake.csproj|solutionrelative:snakeremake\\docs\\technicaltask.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C82A7152-6D3B-4C07-8446-BECE8385AB0C}|SnakeRemake\\SnakeRemake.csproj|C:\\Users\\user\\Desktop\\SnakeRemake\\snakeremake\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C82A7152-6D3B-4C07-8446-BECE8385AB0C}|SnakeRemake\\SnakeRemake.csproj|solutionrelative:snakeremake\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{170072CC-4696-492A-90CC-4D49601D808A}|GameTests\\GameTests.csproj|solutionrelative:gametests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C82A7152-6D3B-4C07-8446-BECE8385AB0C}|SnakeRemake\\SnakeRemake.csproj|c:\\users\\user\\desktop\\snakeremake\\snakeremake\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C82A7152-6D3B-4C07-8446-BECE8385AB0C}|SnakeRemake\\SnakeRemake.csproj|C:\\Users\\user\\Desktop\\SnakeRemake\\snakeremake\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C82A7152-6D3B-4C07-8446-BECE8385AB0C}|SnakeRemake\\SnakeRemake.csproj|solutionrelative:snakeremake\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "technicalTask.md",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SnakeRemake\\SnakeRemake\\docs\\technicalTask.md",
+              "RelativeDocumentMoniker": "SnakeRemake\\docs\\technicalTask.md",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SnakeRemake\\SnakeRemake\\docs\\technicalTask.md",
+              "RelativeToolTip": "SnakeRemake\\docs\\technicalTask.md",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-06T11:47:48.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SnakeRemake\\GameTests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "GameTests\\UnitTest1.cs",
@@ -34,24 +51,22 @@
               "RelativeToolTip": "GameTests\\UnitTest1.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T18:18:45.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T18:18:45.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SnakeRemake\\SnakeRemake\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SnakeRemake\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\user\\Desktop\\SnakeRemake\\SnakeRemake\\MainWindow.xaml",
               "RelativeToolTip": "SnakeRemake\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T18:30:58.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T18:30:58.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\SnakeRemake\\SnakeRemake\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SnakeRemake\\MainWindow.xaml.cs",
@@ -59,8 +74,7 @@
               "RelativeToolTip": "SnakeRemake\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:22:17.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:22:17.938Z"
             }
           ]
         }

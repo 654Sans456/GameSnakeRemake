@@ -145,7 +145,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="docs\diagr\classes.jpg" />
+    <Content Include="docs\diagr\classes.png" />
     <Resource Include="docs\diagr\sequence.jpg" />
     <Resource Include="docs\diagr\usecase.jpg" />
   </ItemGroup>

@@ -8,8 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("docs/diagr/classes.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("docs/diagr/sequence.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("docs/diagr/usecase.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("docs/diagr/classes.png")]
 
 
